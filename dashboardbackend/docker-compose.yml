@@ -1,0 +1,9 @@
+version: "3"
+services:
+    app:
+        container_name: dashborad_backend
+        restart: always
+        build: .
+        ports: 
+            - "4000:5000"
+        

@@ -1,0 +1,11 @@
+.background_Login {
+  background: linear-gradient(-135deg, #c850c0, #4158d0) !important;
+}
+
+.loginWrapper__LoginPage {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

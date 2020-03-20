@@ -1,0 +1,476 @@
+.stats__Home {
+  width: 350px;
+  height: 135px;
+  position: relative;
+  margin-top: 25px;
+}
+
+.iconContainer_Home {
+  color: white;
+  width: 56px;
+  height: 56px;
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: -25px;
+  left: 20px;
+}
+
+.containerText__Home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-right: 10px;
+  padding-top: 10px;
+}
+
+.firstLine__Home {
+  opacity: 0.65;
+}
+
+.cardFooter__Home::before {
+  content: "";
+  position: absolute;
+  width: 330px;
+  left: -20px;
+  bottom: 40px;
+  right: 0;
+  border-top: 1px solid rgba(128, 128, 128, 0.24);
+}
+
+.cardFooter__Home {
+  position: absolute;
+  bottom: 5px;
+  left: 30px;
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+.iconLeftBottom__Home {
+  position: absolute;
+  left: -22px;
+  bottom: 2px;
+}
+
+.headerWrapper__Customers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.leftItemsHead__Customers .searchField__Customers {
+  margin-top: 10px;
+}
+
+.rightItemsHead__Customers {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  position: absolute;
+}
+
+.rightItemsHead__Customers > button {
+  width: 100%;
+}
+
+.cutomerList__Customers {
+  margin-top: 20px;
+}
+
+.loading__Customers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 100px;
+}
+
+.deleteButton__Customers {
+  position: absolute;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  top: 25px;
+  -webkit-animation: fadein 1s;
+          animation: fadein 1s;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.wrapper__Customer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+}
+
+.header__Customer {
+  padding: 25px;
+  text-align: center;
+}
+
+.infoWrapper__Customer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.infoWrapper__Customer > div > li {
+  padding: 0;
+}
+
+.overViewContainer__Customer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+.item1__Customer {
+  padding: 15px;
+}
+
+.item2__Customer {
+  padding: 15px;
+  background-color: lightgrey;
+}
+
+.gridTitleContent__Customer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  width: 100%;
+  gap: 20px;
+}
+
+.descriptionWrapper__Customer {
+  padding-bottom: 30px;
+}
+
+.descriptionWrapper__Customer .description__Customer {
+  padding: 20px;
+  border: 1px solid grey;
+  width: 90%;
+  margin: auto;
+}
+
+.headerBill__Customer {
+  padding: 15px;
+}
+
+.buttonContainer_Customer {
+  text-align: left;
+  margin-left: 25px;
+  padding-bottom: 25px;
+}
+
+.receiptItem__Customer {
+  padding: 15px 0px;
+}
+
+.receiptItem__Customer:nth-child(2) {
+  background-color: lightgrey;
+}
+
+.receiptItem__Customer:hover {
+  background-color: rgba(165, 165, 165, 0.8);
+  cursor: pointer;
+}
+
+.receiptItemWrapper__Customer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.wrapper__AddCustomer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.container__AddCustomer {
+  width: 90%;
+}
+
+.header__AddCustomer {
+  padding-top: 25px;
+}
+
+.formContainer__AddCustomer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  margin: 25px;
+  gap: 30px;
+}
+
+.smallGird__AddCustomer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+.smallGird__AddCustomer .cityZipCode__AddCustomer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.textarea__AddCustomer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 25px;
+}
+
+.submitButton__AddCustomer {
+  margin: 25px 0px !important;
+}
+
+.list__list:hover {
+  background-color: rgba(161, 161, 161, 0.5);
+}
+
+.listItem__List:hover {
+  background-color: rgba(161, 161, 161, 0.2);
+  cursor: pointer;
+}
+
+.deleteButton__List {
+  position: absolute;
+  top: 125px;
+  -webkit-animation: fadein 1s;
+          animation: fadein 1s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.wrapper__Receipt {
+  width: 874px;
+  min-height: 1240px;
+  margin-left: 10%;
+  padding: 25px 80px;
+  position: relative;
+}
+
+.logo__Receipt {
+  width: 200px;
+  height: 180px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.gridWrapper__Receipt {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  width: 100%;
+}
+
+.receiptBill__receipt {
+  -ms-grid-row: 2;
+  grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / 3;
+  border-top: 1px solid grey;
+  padding-top: 25px;
+}
+
+.table__Receipt {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 125px;
+}
+
+.table__Receipt thead tr {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  text-align: left;
+  font-weight: bold;
+}
+
+.tableButton__Receipt {
+  background-color: lightgrey;
+  /* Green */
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.tableButton__Receipt:hover {
+  opacity: 0.8;
+}
+
+.table__Receipt th,
+.table__Receipt td {
+  padding: 15px 0px;
+}
+
+.table__Receipt tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.tdProductNumberInput__Receipt {
+  padding-right: 25px !important;
+}
+
+.productNumberInput__Receipt {
+  width: 80px;
+}
+
+.tdAmountInput__Receipt {
+  padding: 0px 25px !important;
+}
+
+.amountInput__Receipt {
+  width: 80px;
+}
+
+.tdPricePerProductInput__Receipt {
+  padding: 0px 25px !important;
+  min-width: 155px;
+}
+
+.pricePerProductInput__Receipt {
+  width: 80px;
+}
+
+.tdPos__Receipt {
+  padding-right: 50px !important;
+}
+
+.footerSmall__Receipt {
+  position: absolute;
+  text-align: center;
+  bottom: 25px;
+  left: 0px;
+  border-top: 1px solid grey;
+  padding-top: 25px;
+}
+
+.receiptButtons_Receipt {
+  margin-left: 25px;
+  height: 250px;
+  width: 500px;
+}
+
+.receiptButtonsEdit_Receipt {
+  margin-left: 25px;
+  height: 250px;
+  width: 500px;
+}
+
+.buttonContainer_Receipt {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 50px;
+}
+
+.background_Login {
+  background: linear-gradient(-135deg, #c850c0, #4158d0) !important;
+}
+
+.loginWrapper__LoginPage {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.wrapperTEST {
+  margin-left: 250px;
+  margin-top: 250px;
+  position: absolute;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=index.css.map */

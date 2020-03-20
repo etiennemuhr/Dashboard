@@ -1,0 +1,42 @@
+.wrapper__AddCustomer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.container__AddCustomer {
+  width: 90%;
+}
+
+.header__AddCustomer {
+  padding-top: 25px;
+}
+
+.formContainer__AddCustomer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 25px;
+  gap: 30px;
+}
+
+.smallGird__AddCustomer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+
+  .cityZipCode__AddCustomer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+}
+
+.textarea__AddCustomer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 25px;
+}
+
+.submitButton__AddCustomer {
+  margin: 25px 0px !important;
+}

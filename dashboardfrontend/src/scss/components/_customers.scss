@@ -1,0 +1,47 @@
+.headerWrapper__Customers {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.leftItemsHead__Customers {
+  .searchField__Customers {
+    margin-top: 10px;
+  }
+}
+
+.rightItemsHead__Customers {
+  align-self: flex-end;
+  position: absolute;
+}
+
+.rightItemsHead__Customers > button {
+  width: 100%;
+}
+
+.cutomerList__Customers {
+  margin-top: 20px;
+}
+
+.loading__Customers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+
+.deleteButton__Customers {
+  position: absolute;
+  align-self: center;
+  top: 25px;
+  animation: fadein 1s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,23 @@
+.list__list:hover {
+  background-color: rgba($color: #a1a1a1, $alpha: 0.5);
+}
+
+.listItem__List:hover {
+  background-color: rgba($color: #a1a1a1, $alpha: 0.2);
+  cursor: pointer;
+}
+
+.deleteButton__List {
+  position: absolute;
+  top: 125px;
+  animation: fadein 1s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

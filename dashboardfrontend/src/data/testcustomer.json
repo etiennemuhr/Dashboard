@@ -1,0 +1,36 @@
+  // const customers = [
+  //   {
+  //     id: "1",
+  //     company: "test1",
+  //     zipCode: "2501",
+  //     city: "01",
+  //     phone: "0650 1122335",
+  //     contactPerson: "Max Mustermann 1",
+  //     revenue: "1000€",
+  //     linkTo: "test",
+  //     handleChecked: handleChange,
+  //     checked: checked
+  //   },
+  //   {
+  //     id: "2",
+  //     company: "test2",
+  //     zipCode: "2502",
+  //     city: "02",
+  //     phone: "0650 2122335",
+  //     contactPerson: "Max Mustermann 2",
+  //     revenue: "2000€",
+  //     handleChecked: handleChange,
+  //     checked: checked
+  //   },
+  //   {
+  //     id: "3",
+  //     company: "neu3",
+  //     zipCode: "2503",
+  //     city: "03",
+  //     phone: "0650 3122335",
+  //     contactPerson: "Max Mustermann 3",
+  //     revenue: "3000€",
+  //     handleChecked: handleChange,
+  //     checked: checked
+  //   }
+  // ];
